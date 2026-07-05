@@ -18,7 +18,7 @@ export default defineConfig(async (env) => {
     ...(isBuild
       ? {
           nitro: {
-            preset: "node-server",
+  preset: "vercel",
             output: {
               dir: "dist",
               serverDir: "dist/server",
